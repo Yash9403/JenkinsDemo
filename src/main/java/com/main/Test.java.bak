@@ -9,7 +9,6 @@ public class Test {
 
 	@GetMapping("/{name}")
 	public String message(@PathVariable("name") String name) {
-		System.out.pritnln();
 		return name + " Good to know you are using jenkins";
 	}
 
